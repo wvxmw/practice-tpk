@@ -945,7 +945,7 @@ section {
     height: 4px;
     border-radius: 10px;
     background-color: #fff;
-    transition-delay: 0.15s;
+    transition-delay: 0.2s;
   }
 
   .burger__icon::before,
@@ -967,23 +967,23 @@ section {
   .burger__button:checked ~ .burger__icon::before {
     top: 12px;
     transform: rotate(135deg);
-    transition: top 0.15s ease 0s, transform 0.15s ease 0.15s;
+    transition: top 0.2s ease 0s, transform 0.2s ease 0.2s;
   }
 
   .burger__button:checked ~ .burger__icon::after {
     bottom: 12px;
     transform: rotate(225deg);
-    transition: bottom 0.15s ease 0s, transform 0.15s ease 0.15s;
+    transition: bottom 0.2s ease 0s, transform 0.2s ease 0.2s;
   }
 
   .burger__icon::before {
     top: 0;
-    transition: top 0.15s ease 0.15s, transform 0.15s ease 0s;
+    transition: top 0.2s ease 0.2s, transform 0.2s ease 0s;
   }
 
   .burger__icon::after {
     bottom: 0;
-    transition: bottom 0.15s ease 0.15s, transform 0.15s ease 0s;
+    transition: bottom 0.2s ease 0.2s, transform 0.2s ease 0s;
   }
 
   .burger__button:checked ~ .header__menu {
